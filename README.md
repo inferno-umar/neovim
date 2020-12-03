@@ -23,3 +23,6 @@ You can make changes to the various keybindings in init.vim file.
 Autocomplete engine i.e. con-nvim won't work on startup, you can change the line 62 in init.vim to auto-enable it on startup or ;c keybinding to start it manually.
 
 Any suggestion would be appreciated.
+
+
+Still have any issues raise one. I'll fix it.
