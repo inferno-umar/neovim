@@ -10,7 +10,7 @@ After installation move coc-settings.json file to /.../.config/nvim.
 And You're done. Enjoy
 
 # Screenshot
-
+![alt text](https://github.com/inferno-umar/neovim/blob/main/nvim.png)
 
 # Note
 You can make changes to the various keybindings in init.vim file.
