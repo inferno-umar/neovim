@@ -8,7 +8,7 @@ Humble and lightweight on resources.
 
 1. Download and install [vim-plug](https://github.com/junegunn/vim-plug) (a plugin manager for vim/neovim). Don't worry its easy.
 
-2. move the file init.vim to /.../.config/nvim and run this command :PlugInstall (Make sure you're connected to internet).
+2. move the file init.vim to /.../.config/nvim and run this normal command inside nvim :PlugInstall (Make sure you're connected to internet).
 
 3. After installation move coc-settings.json file to /.../.config/nvim.
 
