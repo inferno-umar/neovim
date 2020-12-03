@@ -2,6 +2,8 @@
 
 This is my personal neovim configuration.
 
+Humble and lightweight on resources.
+
 # Installation
 
 1. Download and install [vim-plug](https://github.com/junegunn/vim-plug) (a plugin manager for vim/neovim). Don't worry its easy.
