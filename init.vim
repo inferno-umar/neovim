@@ -14,7 +14,6 @@ Plug 'majutsushi/tagbar'
 Plug 'https://github.com/rbgrouleff/bclose.vim'
 Plug 'https://github.com/rakr/vim-one'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-Plug 'https://github.com/tomasiser/vim-code-dark'
 
 call plug#end()
 
