@@ -22,7 +22,7 @@ set number
 set smartcase
 set splitright
 set mouse=a
-colorscheme codedark
+colorscheme dracula
 
 set noshowmode
 set noruler
