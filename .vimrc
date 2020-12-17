@@ -65,7 +65,7 @@ nmap <leader>x :Bclose<cr>
 "nmap <leader>
 
 "NERDTree Settings
-"autocmd VimEnter * NERDTree
+autocmd VimEnter * NERDTree
 let NERDTreeMouseMode = 2
 let NERDTreeChDirMode = 3
 let g:NERDTreeShowHidden = 1
