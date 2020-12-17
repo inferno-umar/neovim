@@ -33,7 +33,7 @@ For Neovim
 And You're done. Enjoy
 
 # Screenshot
-![alt text](https://github.com/inferno-umar/neovim/blob/main/nvim.png)
+![alt text](https://github.com/inferno-umar/neovim/blob/main/vim.png)
 
 # Note
 You can make changes to the various keybindings in init.vim file.
