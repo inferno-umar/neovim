@@ -40,6 +40,8 @@ You can make changes to the various keybindings in init.vim/.vimrc file.
 
 Installation of onehalf theme is tricky, once all the plugins are installed hover where they are downloaded i.e. (Vim - ~/.vim/plugged/onehalf/ & for nvim ~/.config/nvim/plugged/onehalf) and delete all the folders except (.git and vim). Move all the files/folders from vim to plugged directory and restart vim.
 
+If you want icons read [this documentation](https://github.com/ryanoasis/nerd-fonts#font-installation).
+
 Any suggestion would be appreciated.
 
 Still have any issues raise one. I'll fix it.
