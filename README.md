@@ -10,7 +10,7 @@ For Vim
 
 1. Download and install [vim-plug](https://github.com/junegunn/vim-plug) (a plugin manager for vim/neovim). Don't worry its easy & create a direcory named plugged.
 
-2. Copy vimrc file from [here](https://github.com/inferno-umar/vim-neovim/blob/main/vimrc) and paste it in your ~/.vimrc file.
+2. Copy .vimrc file from [here](https://github.com/inferno-umar/vim-neovim/blob/main/.vimrc) and paste it in your ~/.vimrc file.
 
 3. Start vim (ignore the errors).
 
