@@ -1,10 +1,26 @@
-# neovim
+# Vim/Neovim config file
 
-This is my personal neovim configuration.
+This is my personal vim configuration.
 
 Humble and lightweight on resources.
 
 # Installation
+
+For Vim
+
+1. Download and install [vim-plug](https://github.com/junegunn/vim-plug) (a plugin manager for vim/neovim). Don't worry its easy & create a direcory named plugged.
+
+2. Copy init.vim file from [here](https://github.com/inferno-umar/vim-neovim/blob/main/init.vim) and paste it in your ~/.vimrc file.
+
+3. Start vim (ignore the errors).
+
+4. Run :PlugInstall
+
+5. Restart vim.
+
+And You're done. Enjoy
+
+For Neovim
 
 1. Download and install [vim-plug](https://github.com/junegunn/vim-plug) (a plugin manager for vim/neovim). Don't worry its easy.
 
@@ -21,8 +37,6 @@ And You're done. Enjoy
 
 # Note
 You can make changes to the various keybindings in init.vim file.
-
-Autocomplete engine i.e. con-nvim won't work on startup, you can change the line 62 in init.vim to auto-enable it on startup or ;c keybinding to start it manually.
 
 Any suggestion would be appreciated.
 
