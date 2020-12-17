@@ -1,5 +1,3 @@
-cd /home/umar/Development
-
 call plug#begin('~/.vim/plugged/')
 
 Plug 'https://github.com/vim-airline/vim-airline'
