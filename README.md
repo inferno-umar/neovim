@@ -12,7 +12,7 @@ For Vim
 
 2. Copy .vimrc file from [here](https://github.com/inferno-umar/vim-neovim/blob/main/.vimrc) and paste it in your ~/.vimrc file.
 
-3. Start vim (ignore the errors).
+3. Start vim (ignore the errors for first time).
 
 4. Run :PlugInstall
 
@@ -24,7 +24,7 @@ For Neovim
 
 1. Download and install [vim-plug](https://github.com/junegunn/vim-plug) (a plugin manager for vim/neovim). Don't worry its easy.
 
-2. move the file init.vim to /.../.config/nvim and run this normal command inside nvim :PlugInstall (Make sure you're connected to internet).
+2. Copy .vimrc file from [here](https://github.com/inferno-umar/vim-neovim/blob/main/.vimrc) and paste it in your ~/.config/nvim/init.vim file.
 
 3. After installation move coc-settings.json file to /.../.config/nvim.
 
