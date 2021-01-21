@@ -1,44 +1,28 @@
-# Vim/Neovim config file
+# Neovim config file
 
-This is my personal vim configuration.
+This is my personal Neovim configuration.
 
 Humble and lightweight on resources.
 
+# Requirements
+
+Neovim nightly https://github.com/neovim/neovim/releases/tag/nightly
+
 # Installation
 
-For Vim
+Use alacarte to link it to the required directory (For linux only)
 
-1. Download and install [vim-plug](https://github.com/junegunn/vim-plug) (a plugin manager for vim/neovim). Don't worry its easy & create a directory named plugged.
+1. Download the zip file extract it and place it in the ~/.config/nvim directory.
 
-2. Copy .vimrc file from [here](https://github.com/inferno-umar/vim-neovim/blob/main/.vimrc) and paste it in your ~/.vimrc file.
-
-3. Start vim (ignore the errors for first time).
-
-4. Run :PlugInstall
-
-5. Restart vim.
-
-And You're done. Enjoy
-
-For Neovim
-
-1. Download and install [vim-plug](https://github.com/junegunn/vim-plug) (a plugin manager for vim/neovim). Don't worry its easy.
-
-2. Copy .vimrc file from [here](https://github.com/inferno-umar/vim-neovim/blob/main/.vimrc) and paste it in your ~/.config/nvim/init.vim file.
-
-3. After installation move coc-settings.json file to /.../.config/nvim.
-
-4. Restart nvim.
+2. Restart neovim.
 
 And You're done. Enjoy
 
 # Screenshot
-![alt text](https://github.com/inferno-umar/neovim/blob/main/vim.png)
+![alt text](https://github.com/inferno-umar/neovim/blob/main/nvim.png)
 
 # Note
-You can make changes to the various keybindings in init.vim/.vimrc file.
-
-Installation of onehalf theme is tricky, once all the plugins are installed hover where they are downloaded i.e. (Vim - ~/.vim/plugged/onehalf/ & for nvim ~/.config/nvim/plugged/onehalf) and delete all the folders except (.git and vim). Move all the files/folders from vim to plugged directory and restart vim.
+You can make changes to the various keybindings in init.vim file.
 
 If you want icons read [this documentation](https://github.com/ryanoasis/nerd-fonts#font-installation).
 
