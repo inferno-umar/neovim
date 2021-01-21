@@ -8,13 +8,17 @@ Humble and lightweight on resources.
 
 Neovim nightly https://github.com/neovim/neovim/releases/tag/nightly
 
+GPU terminal emulator
+
 # Installation
 
 Use alacarte to link it to the required directory (For linux only)
 
 1. Download the zip file extract it and place it in the ~/.config/nvim directory.
 
-2. Restart neovim.
+2. Make a directory plugged in nvim directory
+
+3. Restart neovim.
 
 And You're done. Enjoy
 
