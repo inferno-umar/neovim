@@ -85,40 +85,40 @@ gls.left[2] = {
     highlight = {colors.grey,colors.bg,'bold'},
   },
 }
--- gls.left[3] ={
---   FileIcon = {
---     separator = ' ',
---     provider = 'FileIcon',
---     condition = buffer_not_empty,
---     highlight = {require('galaxyline.provider_fileinfo').get_file_icon_color,colors.bg},
---   },
--- }
--- gls.left[4] = {
---   FileName = {
---     provider = {'FileSize'},
---     condition = buffer_not_empty,
---     separator = ' ',
---     separator_highlight = {colors.purple,colors.bg},
---     highlight = {colors.magenta,colors.bg}
---   }
--- }
+ gls.left[3] ={
+   FileIcon = {
+     separator = ' ',
+     provider = 'FileIcon',
+     condition = buffer_not_empty,
+     highlight = {require('galaxyline.provider_fileinfo').get_file_icon_color,colors.bg},
+   },
+ }
+ gls.left[4] = {
+   FileName = {
+     provider = {'FileSize'},
+     condition = buffer_not_empty,
+     separator = ' ',
+     separator_highlight = {colors.purple,colors.bg},
+     highlight = {colors.magenta,colors.bg}
+   }
+ }
 
-gls.left[3] = {
-  GitIcon = {
-    provider = function() return ' ' end,
-    condition = buffer_not_empty,
-    highlight = {colors.orange,colors.bg},
-  }
-}
-gls.left[4] = {
-  GitBranch = {
-    provider = 'GitBranch',
-    separator = ' ',
-    separator_highlight = {colors.purple,colors.bg},
-    condition = buffer_not_empty,
-    highlight = {colors.grey,colors.bg},
-  }
-}
+--gls.left[3] = {
+  --GitIcon = {
+    --provider = function() return ' ' end,
+    --condition = buffer_not_empty,
+    --highlight = {colors.orange,colors.bg},
+  --}
+--}
+--gls.left[4] = {
+  --GitBranch = {
+    --provider = 'GitBranch',
+    --separator = ' ',
+    --separator_highlight = {colors.purple,colors.bg},
+    --condition = buffer_not_empty,
+    --highlight = {colors.grey,colors.bg},
+  --}
+--}
 
 local checkwidth = function()
   local squeeze_width  = vim.fn.winwidth(0) / 2
