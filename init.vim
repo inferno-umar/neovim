@@ -117,28 +117,32 @@ autocmd BufWinEnter,WinEnter * if &buftype == 'terminal' | silent! normal i | en
 
 "Compiler
 "nnoremap <C-p> :!python3 %<Enter>
+
 "Keyboard Shortcuts
-
-
 "noremap <C-t> :vsplit<bar>terminal<cr>
 "inoremap <C-t> <C-o>:vsplit<bar>terminal<cr>
 noremap <C-t> :vsplit<cr>
 inoremap <C-t> <C-o>:vsplit<cr>
+nnoremap <esc><esc> <C-o>:nohlsearch<cr> 
 
-"Navigation
+"Clipboard support like traditional editor
+vnoremap <C-c> "*y
+nnoremap <C-p> "*p
+
+"Navigation in insert mode
 inoremap <C-k> <C-o>gk
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 inoremap <C-j> <C-o>gj
 
-
 "Button
-noremap <F7> :bprevious<cr>
-noremap <F8> :bnext<cr>
-noremap <F6> :TagbarToggle<cr>
-noremap <F2> :CocEnable<cr>
-noremap <F3> :CocDisable<cr>
-noremap <F5> :e %<cr>
+nnoremap <F7> :bprevious<cr>
+inoremap <F7> :bprevious<cr>
+nnoremap <F8> :bnext<cr>
+nnoremap <F6> :TagbarToggle<cr>
+nnoremap <F2> :CocEnable<cr>
+nnoremap <F3> :CocDisable<cr>
+nnoremap <F5> :e %<cr>
 
 noremap <C-f> :FZF<cr>
 inoremap <C-f> <C-o>:FZF<cr>
@@ -171,9 +175,9 @@ let g:tagbar_width = 30
 let g:tagbar_iconchars = ['▸', '▾']
 
 "airline
-let g:airline_theme='dark_plus'
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#show_close_button = 0
+"let g:airline_theme='dark_plus'
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#show_close_button = 0
 "let g:airline_powerline_fonts = 1
 "set enc=utf-8
 "set guifont=Powerline_Consolas:h11
